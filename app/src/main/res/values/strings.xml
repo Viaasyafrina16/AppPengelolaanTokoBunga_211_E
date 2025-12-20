@@ -1,48 +1,55 @@
 <resources>
-    <string name="app_name">Toko bunga Floravie</string>
-    <!-- LOGIN & REGISTER -->
-    <string name="login_admin">Login Admin</string>
-    <string name="register_admin">Registrasi Admin</string>
+    <!-- App -->
+    <string name="app_name">Floravie</string>
 
-    <string name="nama_admin">Nama Admin *</string>
-    <string name="email_admin">Email *</string>
-    <string name="password_admin">Password *</string>
+    <!-- General -->
+    <string name="save">Simpan</string>
+    <string name="cancel">Batal</string>
+    <string name="delete">Hapus</string>
+    <string name="edit">Edit</string>
+    <string name="logout">Logout</string>
+    <string name="confirm">Konfirmasi</string>
 
-    <string name="btn_login">Masuk</string>
-    <string name="btn_register">Daftar</string>
-
-    <string name="to_register">Belum punya akun? Daftar</string>
-    <string name="to_login">Sudah punya akun? Login</string>
-
-    <!-- VALIDASI -->
-    <string name="error_kosong">Field tidak boleh kosong</string>
-    <string name="error_email">Format email tidak valid</string>
-    <string name="error_login">Email atau password salah</string>
-    <string name="error_email_used">Email sudah terdaftar</string>
-
+    <!-- Auth -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Nama</string>
+    <string name="login_failed">Email atau password salah</string>
     <string name="register_success">Registrasi berhasil</string>
 
-    <!-- PRODUK -->
-    <string name="data_produk">Data Produk</string>
+    <!-- Home -->
+    <string name="home_title">Beranda</string>
+    <string name="menu_produk">Kelola Produk</string>
+    <string name="menu_rekomendasi">Rekomendasi Bunga</string>
+    <string name="menu_pesanan">Kelola Pesanan</string>
+
+    <!-- Produk -->
+    <string name="produk">Produk Bunga</string>
     <string name="tambah_produk">Tambah Produk</string>
-    <string name="edit_produk">Edit Produk</string>
-    <string name="detail_produk">Detail Produk</string>
-
-    <string name="nama_bunga">Nama Bunga *</string>
-    <string name="kategori">Kategori *</string>
-    <string name="harga">Harga *</string>
-    <string name="stok">Stok *</string>
+    <string name="nama_bunga">Nama Bunga</string>
+    <string name="harga">Harga</string>
+    <string name="stok">Stok</string>
     <string name="deskripsi">Deskripsi</string>
+    <string name="event">Event</string>
+    <string name="produk_berhasil_disimpan">Produk berhasil disimpan</string>
 
-    <string name="btn_simpan">Simpan</string>
-    <string name="btn_hapus">Hapus</string>
+    <!-- Event -->
+    <string name="event_wisuda">Wisuda</string>
+    <string name="event_ulang_tahun">Ulang Tahun</string>
+    <string name="event_pernikahan">Pernikahan</string>
+    <string name="event_duka">Duka Cita</string>
 
-    <!-- DIALOG -->
-    <string name="perhatian">Perhatian</string>
-    <string name="ya">Ya</string>
-    <string name="tidak">Tidak</string>
+    <!-- Pesanan -->
+    <string name="pesanan">Pesanan</string>
+    <string name="tambah_pesanan">Tambah Pesanan</string>
+    <string name="nama_pemesan">Nama Pemesan</string>
+    <string name="qty">Jumlah</string>
+    <string name="tanggal_pesanan">Tanggal Pesanan</string>
+    <string name="pesanan_berhasil_disimpan">Pesanan berhasil disimpan</string>
 
-    <string name="konfirmasi_hapus">Apakah yakin ingin menghapus data ini?</string>
-    <string name="logout">Logout</string>
-    <string name="konfirmasi_logout">Apakah yakin ingin logout?</string>
+    <!-- Dialog -->
+    <string name="confirm_delete">Apakah Anda yakin ingin menghapus?</string>
+    <string name="confirm_logout">Apakah Anda yakin ingin logout?</string>
 </resources>
