@@ -11,10 +11,9 @@ import com.example.tokobungafloravie.room.entity.Admin
 import com.example.tokobungafloravie.room.entity.Pesanan
 import com.example.tokobungafloravie.room.entity.Produk
 
-
 @Database(
     entities = [Admin::class, Produk::class, Pesanan::class],
-    version = 1,
+    version = 2, // 1. Ubah dari 1 ke 2
     exportSchema = false
 )
 abstract class FloravieDatabase : RoomDatabase() {
@@ -33,7 +32,9 @@ abstract class FloravieDatabase : RoomDatabase() {
                     context.applicationContext,
                     FloravieDatabase::class.java,
                     "floravie_db"
-                ).build()
+                )
+                    .fallbackToDestructiveMigration() //
+                    .build()
                 INSTANCE = instance
                 instance
             }
